@@ -18,7 +18,7 @@ try {
 }
 
 if (!isset($_REQUEST['key'])) {
-	$arr = array ('msg'=>"User Data API", 'dev'=>"Sanjukta Mishti Chakroborty");
+	$arr = array ('msg'=>"User Data API", 'dev'=>"Rutuja");
 
 	echo json_encode($arr);
 
